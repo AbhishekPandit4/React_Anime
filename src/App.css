@@ -1,0 +1,94 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.centered-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.search-bar {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/669/545/small/abstract-gradient-pink-blue-liquid-wave-background-free-vector.jpg");
+  height: 500px;
+  align-items: center;
+  width: 250%;
+  display: flex;
+  
+  justify-content: center;
+  margin: 0 20px 20px;
+  padding: 0 100px 100px;
+  /* padding-left: 0 100px 100px; */
+  /* border: 1px solid #212121; */
+  
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Ensures the card stays centered vertically */
+}
+
+.centered-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  height: 50px;
+  justify-content: space-between; /* Ensures space between content and button */
+}
+
+.character-image {
+  width: 50px; /* Adjust the width of the image as needed */
+  height: 50px; /* Ensure the height matches the card height */
+  margin-right: 10px; /* Add margin to separate the image from the text */
+  border-radius: 4px; /* Optional: Add some border radius to the image */
+}
+
+.character-info {
+  flex-grow: 1; /* Ensures the info section takes up remaining space */
+  display: flex;
+  flex-direction: column; /* Stack the text vertically */
+  justify-content: center; /* Center the text vertically */
+}
+
+.arrow-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  padding: 20px;
+}
