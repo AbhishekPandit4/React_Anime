@@ -9,7 +9,7 @@ A brief description of what the project does.
    git clone https://github.com/AbhishekPandit4/React_Anime.git
 
    ```
-2. go to folder /Task-2
+2. go to folder /Task-1
 3. run below commands
 
 ```bash
