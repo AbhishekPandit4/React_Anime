@@ -7,10 +7,10 @@ import "./App.css";
 import { useNavigate } from "react-router-dom";
 
 const CharacterList = () => {
-  const [query, setQuery] = useState(""); // State to hold the search query
-  const [characters, setCharacters] = useState([]); // State to hold fetched characters
-  const [error, setError] = useState(null); // State to hold error messages
-  const [loading, setLoading] = useState(false); // State to indicate loading status
+  const [query, setQuery] = useState(""); 
+  const [characters, setCharacters] = useState([]);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false); 
   const [totalCharacters, setTotalCharacters] = useState(0);
   const naviget = useNavigate();
 
@@ -28,13 +28,13 @@ const CharacterList = () => {
         },
       });
       setCharacters(response.data.data);
-      setTotalCharacters(response.data.pagination.items.total); // Set characters state with fetched data
-      setError(response.data.data.length === 0 ? "No results found." : ""); // Set error message if no results found
+      setTotalCharacters(response.data.pagination.items.total); 
+      setError(response.data.data.length === 0 ? "No results found." : ""); 
     } catch (err) {
       console.error("Error fetching data:", err);
-      setError("Error fetching data."); // Set error message if an error occurs during fetching
+      setError("Error fetching data."); 
     }
-    setLoading(false); // Set loading to false after fetching completes
+    setLoading(false);
   };
 
   // Effect hook to fetch characters when the component mounts or query changes
@@ -63,7 +63,7 @@ const CharacterList = () => {
               placeholder="Search"
               value={query}
               style={{ margin: 20, width: 200 }}
-              onChange={(e) => setQuery(e.target.value)} // Update query state as user types
+              onChange={(e) => setQuery(e.target.value)} 
             />
           </Form.Group>
         </Form>
