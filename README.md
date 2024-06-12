@@ -1,8 +1,8 @@
-React Anime
+# React Anime
 
 A brief description of what the project does.
 
-How to set up a project?
+## How to set up a project?
 
 1. clone the project:
    ```bash
