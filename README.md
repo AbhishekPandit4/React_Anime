@@ -38,6 +38,8 @@ npm run dev
 ![ # run Project and copy link](https://github.com/AbhishekPandit4/React_Anime/assets/171127612/f3fe3625-4819-40a1-96fc-f141c73d7bfc)
 
 ![# panst url in chorm browswe](https://github.com/AbhishekPandit4/React_Anime/assets/171127612/425eb63a-5ff3-468c-b8f4-73ff029ca99c)
+![# output](https://github.com/AbhishekPandit4/React_Anime/assets/171127612/169ab4a3-7db6-47f4-81c3-993690fd35ee)
+
 
 
 
